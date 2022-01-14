@@ -1,0 +1,7 @@
+.icons{
+    width: 36px;
+}
+.icons:hover{
+    cursor: pointer;
+    filter: invert(49%) sepia(53%) saturate(2554%) hue-rotate(313deg) brightness(96%) contrast(93%);
+}
