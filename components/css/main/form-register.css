@@ -1,0 +1,10 @@
+.label{
+    margin-bottom: 20px;
+}
+.input{
+    margin-top: 10px;
+    background-color: transparent;
+    border:transparent;
+    border-bottom: solid 1px #fff;
+    width: 280px;
+}

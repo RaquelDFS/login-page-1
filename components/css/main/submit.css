@@ -1,0 +1,21 @@
+.submit.button{
+    box-sizing: border-box;
+    display: flex;
+    border:none;
+    border-radius: 3px;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: var(--main-color);
+    width: 100%;
+    margin:40px 0px;
+    padding: 15px 10px;
+}
+
+.submit.button:hover{
+    background-color: rgb(245, 19, 94);
+    cursor: pointer;
+}
