@@ -2,3 +2,12 @@
     margin: 15px;
     text-align: end;
 }
+
+#address{
+    text-decoration: none;
+    color: white;
+}
+
+#address:hover{
+    color: var(--main-color);
+}
