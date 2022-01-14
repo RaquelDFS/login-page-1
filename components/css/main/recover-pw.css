@@ -1,0 +1,9 @@
+.recover-pw{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+}
+.recover-pw:hover{
+    color: var(--main-color);
+}

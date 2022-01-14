@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/components/Js/js.js"></script>
     <link rel="stylesheet" href="/components/export-resets/reset.css">
     <link rel="stylesheet" href="/components/css/main/body.css">
     <link rel="stylesheet" href="/components/css/main/root.css">
     <link rel="stylesheet" href="/components/css/main/main-login.css">
     <link rel="stylesheet" href="/components/css/main/navgation.css">
+    <link rel="stylesheet" href="/components/css/main/recover-pw.css">
 
     <link rel="stylesheet" href="/components/css/footer/footer.css">
     <link rel="stylesheet" href="/components/css/footer/nav-icons.css">
@@ -19,22 +21,26 @@
 <body>
     <main class="main login">
             <nav class="navgation">
-                <a href="" class="navgation login">Login</a>
-                <a href="" class="navgation register">Register</a>
+                <a href="#id-login" class="navgation login">Login</a>
+                <a href="#id-register" class="navgation register">Register</a>
             </nav>
-            <form action="results.html" method="get">
-                <div class="username">
-                    <label for="username">Username</label><br>
-                    <input name="username" type="text" required minlength="6" maxlength="12">
-                </div>
-                <div class="password">
-                    <label for="password" >Password</label><br>
-                    <input name="password" type="password" required minlength="6" maxlength="12">
-                </div>
+                </form>
+            </div>
+            <div class="formulario">
+                <form class="form register" id="id-register" action="results.html" method="get">
+                    <div class="username">
+                        <label for="username">Username</label><br>
+                        <input name="username" type="text" required minlength="6" maxlength="12">
+                    </div>
+                    <div class="password">
+                        <label for="password" >Password</label><br>
+                        <input name="password" type="password" required minlength="6" maxlength="12">
+                    </div>
                     <div class="submit">
-                    <input type="submit" value="Login">
-                </div>
-            </form>
+                        <input type="submit" value="Login">
+                    </div>
+                </form>
+            </div>
             <a href="" class="recover-pw">Forgot Password?</a>
     </main>
     <footer class="footer">
