@@ -7,4 +7,16 @@
     border:transparent;
     border-bottom: solid 1px #fff;
     width: 280px;
+    font-family: inherit;
+    color: #fff;
+    outline: 0 ;
+    outline
+}
+.input:focus {
+    background-color: transparent;
+
+}
+.input:active{
+    background-color: transparent;
+
 }
