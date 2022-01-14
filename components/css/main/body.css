@@ -5,6 +5,8 @@ body{
     background-image: url(/assets/the-neon-shallows-in-nordtheme-with-imagegonord-1366×768\ 1.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
-
+    display: flex;
+    flex-direction: column;
 }

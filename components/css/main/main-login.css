@@ -1,0 +1,6 @@
+.main{
+    flex-direction: column;
+    background-color: var(--main-bg-color);
+    padding: 40px;
+    margin: auto;
+}
