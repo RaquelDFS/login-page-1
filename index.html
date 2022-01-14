@@ -9,26 +9,35 @@
     <title>Login Page</title>
 </head>
 <body>
-    <main class="header">
-        <div class="form">
+    <main class="main --login">
             <nav class="navgation">
                 <a href="" class="navgation __login">Login</a>
                 <a href="" class="navgation __register">Register</a>
             </nav>
-            <form action="text" id="" name="login">
-                <label>Username</label><br>
-                <input type="text"><br>
-                <label>Password</label><br>
-                <input type="text"><br>
-                <input type="submit" value="Login">
+            <form action="results.html" method="get">
+                <div class="username">
+                    <label for="username">Username</label><br>
+                    <input name="username" type="text" required minlength="6" maxlength="12">
+                </div>
+                <div class="password">
+                    <label for="password" >Password</label><br>
+                    <input name="password" type="password" required minlength="6" maxlength="12">
+                </div>
+                    <div class="submit">
+                    <input type="submit" value="Login">
+                </div>
             </form>
             <a href="" class="recover-pw">Forgot Password?</a>
-        </div>
-        <footer>
-            <img src="/assets/twiter_icon.svg" alt="">
-            <img src="/assets/instagram_icon.svg" alt="">
-            <img src="/assets/facebook_icon.svg" alt="">
-        </footer>
     </main>
+    <footer class="footer">
+        <nav>
+            <img src="/assets/twiter_icon.svg" alt="">
+            <img src="/assets/facebook_icon.svg" alt="">
+            <img src="/assets/instagram_icon.svg" alt="">
+        </nav>
+        <address>
+            @RaquelDFS
+        </address>
+    </footer>
 </body>
 </html>
