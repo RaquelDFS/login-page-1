@@ -9,8 +9,7 @@
     width: 280px;
     font-family: inherit;
     color: #fff;
-    outline: 0 ;
-    outline
+    outline: 0;
 }
 .input:focus {
     background-color: transparent;
