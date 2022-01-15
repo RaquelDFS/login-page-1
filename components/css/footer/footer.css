@@ -4,3 +4,28 @@
     flex-direction: column;
     margin: 20px;
 }
+.nav-icons{
+    display: block;
+    text-align: end;
+}
+.icons{
+    width: 36px;
+    margin: 20px;
+}
+.icons:hover{
+    cursor: pointer;
+    filter: invert(49%) sepia(53%) saturate(2554%) hue-rotate(313deg) brightness(96%) contrast(93%);
+}
+.address{
+    margin: 15px;
+    text-align: end;
+}
+
+#address{
+    text-decoration: none;
+    color: white;
+}
+
+#address:hover{
+    color: var(--main-color);
+}
