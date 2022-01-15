@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="/components/export-resets/reset.css">
     <link rel="stylesheet" href="/components/css/main/body.css">
     <link rel="stylesheet" href="/components/css/main/root.css">
+    <link rel="stylesheet" href="/components/css/main/nav_tabs.css">
     <link rel="stylesheet" href="/components/css/main/main-login.css">
+    <link rel="stylesheet" href="/components/css/main/banner.css">
     <link rel="stylesheet" href="/components/css/main/navgation.css">
     <link rel="stylesheet" href="/components/css/main/recover-pw.css">
     <link rel="stylesheet" href="/components/css/main/form-register.css">
@@ -20,28 +22,74 @@
     <title>Login Page</title>
 </head>
 <body>
-    <main class="main login">
-            <nav class="navgation">
-                <a href="#id-login" class="navgation login">Login</a>
-                <a href="#id-register" class="navgation register">Register</a>
+    <main class="main">
+            <nav class="nav_tabs">
+                <ul>
+                    <li>
+                        <input type="radio" name="tabs" class="rd_tabs" id=login checked>
+                        <label for="login">Login</label>
+                        <section class="content">
+                            <form id="get-login" action="results.html" method="get">
+                                <div class="label username">
+                                    <label class="la-bel" for="username">Username</label><br>
+                                    <input class="input" name="username" type="text" required minlength="6" maxlength="12">
+                                </div>
+                                <div class="label password">
+                                    <label class="la-bel" for="password" >Password</label><br>
+                                    <input class="input" name="password" type="password" required minlength="6" maxlength="12">
+                                </div>
+                                <div class="submit">
+                                    <input class="submit button" type="submit" value="Login">
+                                </div>
+                            </form>
+                        </section>
+                    </li>
+                    <li>
+                        <input type="radio" name="tabs" class="rd_tabs" id=register>
+                        <label for="register">Register</label>
+                        <section class="content">
+                            <form  id="get-register" action="results.html" method="get">
+                                <div class="label username">
+                                    <label class="la-bel" for="username">Username</label><br>
+                                    <input class="input" name="username" type="text" required minlength="6" maxlength="12">
+                                </div>
+                                <div class="label password">
+                                    <label class="la-bel" for="password" >Password</label><br>
+                                    <input class="input" name="password" type="password" required minlength="6" maxlength="12">
+                                </div>
+                                <div class="submit">
+                                    <input class="submit button" type="submit" value="Login">
+                                </div>
+                            </form>
+                        </section>
+                    </li>
+                </ul>
             </nav>
-                </form>
-            </div>
-            <div class="formulario">
-                <form class="form register" id="id-register" action="results.html" method="get">
-                    <div class="label username">
-                        <label class="la-bel" for="username">Username</label><br>
-                        <input class="input" name="username" type="text" required minlength="6" maxlength="12">
+            <!--
+                <nav> 
+                <a href="#login" class="navgation login">Login</a>
+                <a href="#register" class="navgation register">Register</a></nav>
+                <div class="banner">
+                    <div class="form"  id="login" >
+                        <form id="get-login" action="results.html" method="get">
+                            <div class="label username">
+                                <label class="la-bel" for="username">Username</label><br>
+                                <input class="input" name="username" type="text" required minlength="6" maxlength="12">
+                            </div>
+                            <div class="label password">
+                                <label class="la-bel" for="password" >Password</label><br>
+                                <input class="input" name="password" type="password" required minlength="6" maxlength="12">
+                            </div>
+                            <div class="submit">
+                                <input class="submit button" type="submit" value="Login">
+                            </div>
+                        </form>
                     </div>
-                    <div class="label password">
-                        <label class="la-bel" for="password" >Password</label><br>
-                        <input class="input" name="password" type="password" required minlength="6" maxlength="12">
+                    <div class="form" id="register">
+                        
                     </div>
-                    <div class="submit">
-                        <input class="submit button" type="submit" value="Login">
-                    </div>
-                </form>
-            </div>
+                </div>
+                -->
             <a href="" class="recover-pw">Forgot Password?</a>
     </main>
     <footer class="footer">

@@ -1,0 +1,49 @@
+.main{
+    display: block;
+    margin: auto;
+    background-color: var(--main-bg-color);
+    padding: 40px;
+}
+
+.nav_tabs{
+    position: relative;
+}
+
+.nav_tabs ul li{
+    float: left;
+}
+.nav_tabs label{
+    width: 100px;
+    padding: 25px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.rd_tabs:checked ~ label{
+    transition: 0.2s;
+    border-bottom: 2px var(--main-color) solid;
+}
+.rd_tabs{
+    display:none;
+}
+
+.content{
+    position: absolute;
+    display: none;
+}
+.rd_tabs:checked ~ .content{
+    display: block;
+}
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+.recover-pw{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    
+}
+.recover-pw:hover{
+    color: var(--main-color);
+}
+[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]
