@@ -1,18 +1,25 @@
 
 .nav_tabs{
     position: relative;
+    margin: auto;
 }
-
-.nav_tabs ul li{
-    float: left;
+.tab_label{
+    display: block;
+    height: 80px;
+    line-height: 40px;
 }
 .nav_tabs label{
+    display: block;
     width: 100px;
     padding: 25px;
-    display: block;
     cursor: pointer;
     text-align: center;
 }
+.nav_tabs ul li{
+    float: left;
+}
+
+
 
 .rd_tabs:checked ~ label{
     transition: 0.2s;
@@ -26,6 +33,6 @@
     position: absolute;
     display: none;
 }
-.rd_tabs:checked ~ .content{
+.rd_tabs:checked ~ .content {
     display: block;
 }
